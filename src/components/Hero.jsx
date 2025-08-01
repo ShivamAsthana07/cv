@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
+import { FaXTwitter } from "react-icons/fa6";
 
 export default function HeroSection() {
   return (
@@ -32,10 +33,10 @@ export default function HeroSection() {
               {/* Social Icons */}
               <div className="flex justify-center space-x-6 mt-6 bg-white w-full p-4">
                 <a href="#" className="text-black hover:text-blue-600 transition-colors">
-                  <FaFacebookF size={20} />
+                  <FaGithub size={20} />
                 </a>
                 <a href="#" className="text-black hover:text-blue-400 transition-colors">
-                  <FaTwitter size={20} />
+                  <FaXTwitter size={20} />
                 </a>
                 <a href="#" className="text-black hover:text-blue-700 transition-colors">
                   <FaLinkedinIn size={20} />
@@ -70,10 +71,15 @@ export default function HeroSection() {
             {/* Description */}
             <div className="space-y-6 text-gray-600 leading-relaxed">
               <p>
-                I'm a paragraph. Click here to add your own text and edit me. It's easy. Just click "Edit Text" or double click me to add your own content and make changes to the font.
+                Dedicated Web Developer with strong frontend and backend skills, 
+                specializing in the MERN stack (MongoDB, Express.js, React.js, Node.js).
+                Able to build responsive, user-friendly websites and web applications. 
+                Fast learner eager to adopt new technologies and tackle challenges. 
+                Committed to writing clean code and delivering effective solutions as part of a dynamic team.
               </p>
               <p>
-                I'm a great place for you to tell a story and let your users know a little more about you.
+                Passionate about problem-solving and constantly seeking opportunities to expand my skills. 
+                Seeking a challenging position where I can contribute my knowledge and expertise to drive innovation and growth in the field of web development.
               </p>
             </div>
           </div>
