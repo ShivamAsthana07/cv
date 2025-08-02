@@ -5,35 +5,35 @@ const Resume = () => {
   // Data arrays for easy maintenance
   const experiences = [
     {
-      period: "2024 - Present",
-      position: "MERN Stack Developer",
-      company: "Tech Solutions Inc",
-      location: "Remote",
+      period: "2022 - 2024",
+      position: "Programmer",
+      company: "Cognizant Technology Solutions",
+      location: "Remote + onsite in Mumbai, Maharashtra",
       description: [
-        "Developed responsive web applications using React.js and the MERN stack, improving user experience and performance.",
-        "Collaborated with cross-functional teams to deliver high-quality projects on time and within budget requirements."
+        "I have extensive experience in automation and manual testing, specializing in healthcare systems using UFT, Visual Basic, and Trizetto QNXT for member claims and provider services. ",
+        "I've successfully reduced QA cycle times through automation and improved documentation processes while working on projects like Emblem Health, utilizing tools such as Jira and Excel for comprehensive test management."
       ]
     }
   ];
 
   const education = [
     {
-      period: "2020 - 2024",
-      degree: "Bachelor of Technology (Computer Science)",
-      institution: "Your University Name",
-      location: "City, State",
+      period: "2024 - 2026",
+      degree: "Masters in Computer Applications (MCA)",
+      institution: "Amity University",
+      location: "Mumbai, Maharashtra",
       description: [
         "Specialized in web development and software engineering with focus on modern JavaScript frameworks.",
         "Completed projects in full-stack development, database management, and responsive web design."
       ]
     },
     {
-      period: "2018 - 2020",
-      degree: "Higher Secondary Education",
-      institution: "Your School Name",
-      location: "City, State",
+      period: "2018 - 2021",
+      degree: "Bachelor of Science (Information Technology)",
+      institution: "Elphinstone College",
+      location: "Mumbai, Maharashtra",
       description: [
-        "Completed with focus on Mathematics and Computer Science, achieving excellent grades.",
+        "Completed with focus on Mathematics and Computer Science, achieving 8.3 CGPA.",
         "Participated in coding competitions and developed early interest in web development."
       ]
     }
@@ -58,7 +58,7 @@ const Resume = () => {
 
   return (
     <section className="bg-[#e6dace] py-16 px-4 pt-[200px]">
-      <div className="container mx-auto max-w-4xl">
+      <div className="container mx-auto max-w-2xl">
         
         {/* Experience Section */}
         <div className="flex justify-between items-center mb-12">
