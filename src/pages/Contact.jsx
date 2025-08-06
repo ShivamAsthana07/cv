@@ -84,6 +84,7 @@ const Contact = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold text-black mb-4">Get In Touch</h1>
+          <div className="w-12 h-0.5 bg-blue-600 mx-auto mb-4"></div>
           <p className="text-gray-700 text-lg max-w-2xl mx-auto">
             I'm always open to discussing new opportunities, interesting projects, 
             or just having a chat about web development and technology.

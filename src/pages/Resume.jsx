@@ -57,7 +57,11 @@ const Resume = () => {
   };
 
   return (
-    <section className="bg-[#e6dace] py-16 px-4 pt-[200px]">
+    <section className="bg-[#e6dace] py-16 px-4 pt-[150px]">
+      <div className="flex flex-col justify-center items-center mb-12">
+        <h1 className="text-4xl font-bold text-black mb-6">Resume</h1>
+        <div className="w-12 h-0.5 bg-blue-600"></div>
+      </div>
       <div className="container mx-auto max-w-2xl">
         
         {/* Experience Section */}
