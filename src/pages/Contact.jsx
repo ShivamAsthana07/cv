@@ -39,19 +39,19 @@ const Contact = () => {
     {
       icon: FaEnvelope,
       title: "Email",
-      details: "shivam.asthana@example.com",
-      link: "mailto:shivam.asthana@example.com"
+      details: "asthanashivam1@gmail.com",
+      link: "mailto:asthanashivam1@gmail.com"
     },
     {
       icon: FaPhone,
       title: "Phone",
-      details: "+91 12345 67890",
-      link: "tel:+911234567890"
+      details: "+91 9930518907",
+      link: "tel:+919930518907"
     },
     {
       icon: FaMapMarkerAlt,
       title: "Location",
-      details: "New Delhi, India",
+      details: "Mumbai, India",
       link: "#"
     }
   ];
@@ -166,7 +166,7 @@ const Contact = () => {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-blue-500 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-600 transition-colors duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-white hover:text-black border border-blue-600 cursor-pointer transition-colors duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {isSubmitting ? 'Sending...' : 'Send Message'}
               </button>

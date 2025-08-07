@@ -7,12 +7,14 @@ import Footer from './components/Footer';
 import Resume from './pages/Resume';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
+import Scroll from './components/Scroll';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Navbar />
+        <Scroll />
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/resume" element={<Resume />} />

@@ -59,17 +59,17 @@ const Resume = () => {
   return (
     <section className="bg-[#e6dace] py-16 px-4 pt-[150px]">
       <div className="flex flex-col justify-center items-center mb-12">
-        <h1 className="text-4xl font-bold text-black mb-6">Resume</h1>
+        <h1 className="text-4xl font-bold text-black mb-6 mt-8">Resume</h1>
         <div className="w-12 h-0.5 bg-blue-600"></div>
       </div>
-      <div className="container mx-auto max-w-2xl">
+      <div className="container mx-auto max-w-4xl">
         
         {/* Experience Section */}
         <div className="flex justify-between items-center mb-12">
           <h2 className="text-4xl font-bold text-black">Experience</h2>
           <button 
             onClick={handleDownloadCV}
-            className="bg-blue-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-blue-500 border border-blue-500 transition-colors duration-300"
+            className="bg-blue-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-black border border-blue-500 transition-colors duration-300"
           >
             DOWNLOAD CV
           </button>

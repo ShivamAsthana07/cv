@@ -99,7 +99,7 @@ const ProjectShowcase = () => {
 
   return (
     <div className="bg-[#e6dace] min-h-screen flex flex-col items-center justify-center p-8 gap-8 pt-40">
-      <h1 className="text-4xl font-bold text-gray-900">Projects</h1>
+      <h1 className="text-4xl font-bold text-gray-900 mt-8">Projects</h1>
       <div className="w-12 h-0.5 bg-blue-600 mx-auto mb-4"></div>
       {projects.map((project, index) => (
         <ProjectCard key={index} {...project} />
