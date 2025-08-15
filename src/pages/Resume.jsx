@@ -52,8 +52,12 @@ const Resume = () => {
   ];
 
   const handleDownloadCV = () => {
-    // Add your CV download logic here
-    console.log("Downloading CV...");
+    const link = document.createElement("a");
+    link.href = "src/assets/Shivam Asthana_CV.pdf";
+    link.download = "Shivam_Asthana_CV.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (

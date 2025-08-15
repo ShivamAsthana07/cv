@@ -60,19 +60,19 @@ const Contact = () => {
     {
       icon: FaLinkedin,
       name: "LinkedIn",
-      url: "https://linkedin.com/in/shivam-asthana",
+      url: "https://www.linkedin.com/in/shivam-asthana-692138174/",
       color: "hover:text-blue-600"
     },
     {
       icon: FaGithub,
       name: "GitHub",
-      url: "https://github.com/shivamasthana",
+      url: "https://github.com/ShivamAsthana07",
       color: "hover:text-gray-800"
     },
     {
       icon: FaXTwitter,
       name: "Twitter",
-      url: "https://twitter.com/shivamasthana",
+      url: "https://x.com/asthanashivam1",
       color: "hover:text-blue-400"
     }
   ];

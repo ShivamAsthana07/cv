@@ -23,13 +23,13 @@ const Footer = () => {
                 <div className="space-x-4">
                     <h3 className="text-center mb-2 font-semibold text-md mr-0">Follow</h3>
                     <div className="flex space-x-4 justify-center" >
-                        <a href="#" className="text-black hover:text-blue-600 transition-colors">
+                        <a href="https://github.com/ShivamAsthana07" className="text-black hover:text-blue-600 transition-colors">
                             <FaGithub size={20} />
                         </a>
-                        <a href="#" className="text-black hover:text-blue-400 transition-colors">
+                        <a href="https://x.com/asthanashivam1" className="text-black hover:text-blue-400 transition-colors">
                             <FaXTwitter size={20} />
                         </a>
-                        <a href="#" className="text-black hover:text-blue-700 transition-colors">
+                        <a href="https://www.linkedin.com/in/shivam-asthana-692138174/" className="text-black hover:text-blue-700 transition-colors">
                             <FaLinkedinIn size={20} />
                         </a>
                         <a href="#" className="text-black hover:text-pink-600 transition-colors">

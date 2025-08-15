@@ -1,8 +1,10 @@
 import React from 'react';
 import { FaGithub, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
+import { useNavigate } from 'react-router-dom';
 
 export default function HeroSection() {
+  const navigate = useNavigate();
   return (
     <div className="min-h-screen bg-gradient-to-r from-[#e6dace] via-white to-white flex items-center justify-center p-8 pb-25">
         <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-40">
@@ -32,13 +34,13 @@ export default function HeroSection() {
               
               {/* Social Icons */}
               <div className="flex justify-center space-x-6 mt-6 bg-white w-full p-4">
-                <a href="#" className="text-black hover:text-blue-600 transition-colors">
+                <a href="https://github.com/ShivamAsthana07" className="text-black hover:text-blue-600 transition-colors">
                   <FaGithub size={20} />
                 </a>
-                <a href="#" className="text-black hover:text-blue-400 transition-colors">
+                <a href="https://x.com/asthanashivam1" className="text-black hover:text-blue-400 transition-colors">
                   <FaXTwitter size={20} />
                 </a>
-                <a href="#" className="text-black hover:text-blue-700 transition-colors">
+                <a href="https://www.linkedin.com/in/shivam-asthana-692138174/" className="text-black hover:text-blue-700 transition-colors">
                   <FaLinkedinIn size={20} />
                 </a>
                 <a href="#" className="text-black hover:text-pink-600 transition-colors">
@@ -60,10 +62,10 @@ export default function HeroSection() {
             
             {/* Buttons */}
             <div className="flex flex-wrap gap-4 mb-8">
-              <button className="bg-blue-600 hover:bg-white hover:text-black border border-blue-600 text-white px-8 py-3 rounded-full font-semibold transition-colors duration-300">
+              <button onClick={() => window.open('src/assets/Shivam Asthana_CV.pdf')} className="bg-blue-600 hover:bg-white hover:text-black border border-blue-600 text-white px-8 py-3 rounded-full font-semibold transition-colors duration-300">
                 RESUME
               </button>
-              <button className="border border-blue-600 bg-white text-black hover:bg-blue-600 hover:text-white px-8 py-3 rounded-full font-semibold transition-colors duration-300">
+              <button onClick={() => navigate('/projects') } className="border border-blue-600 bg-white text-black hover:bg-blue-600 hover:text-white px-8 py-3 rounded-full font-semibold transition-colors duration-300">
                 PROJECTS
               </button>
             </div>
