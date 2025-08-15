@@ -1,13 +1,24 @@
-# React + Vite
+# Minimalist Web Developer CV – README
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Hi, I’m Shivam Asthana
+Web developer focused on fast, accessible, minimalist interfaces using React/MERN and Tailwind CSS.
 
-Currently, two official plugins are available:
+- Philosophy: content-first, performance-minded, inclusive by default
+- Deploy: Vercel or Hostinger
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What’s inside
+- Multi-page layout: About, Experience, Projects, Contact
+- System fonts, high contrast, responsive type
+- Accessible nav, SEO meta, lazy images
 
-## Expanding the ESLint configuration
+## Tech
+- React, Tailwind CSS, JavaScript
+- Node.js, Express, MongoDB
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# cv
+## Quick Start
+- npm install
+- npm run dev
+- npm run build
+
+## Structure
+- src/pages or app, components, styles, public
