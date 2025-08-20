@@ -63,7 +63,7 @@ const ProjectShowcase = () => {
       title: "DBank App",
       role: "Full Stack Developer",
       description: "A modern digital banking application built with React and blockchain technology. Features secure transactions, real-time balance updates, and an intuitive user interface for seamless banking experience.",
-      imageSrc: "src/assets/generated-image.png",
+      imageSrc: "/generated-image.png",
       imageAlt: "DBank App Interface",
       accentColor: "blue",
       imageOnLeft: false
@@ -72,7 +72,7 @@ const ProjectShowcase = () => {
       title: "E-Commerce Platform",
       role: "Frontend Developer", 
       description: "A comprehensive e-commerce solution with advanced product filtering, secure payment integration, and responsive design. Built with modern web technologies to deliver excellent user experience across all devices.",
-      imageSrc: "src/assets/ecom.png",
+      imageSrc: "/ecom.png",
       imageAlt: "E-Commerce Platform Interface",
       accentColor: "green",
       imageOnLeft: true
@@ -81,7 +81,7 @@ const ProjectShowcase = () => {
       title: "Task Management App",
       role: "UI/UX Designer", 
       description: "An intuitive task management application with drag-and-drop functionality, team collaboration features, and real-time updates. Designed for maximum productivity and seamless workflow management.",
-      imageSrc: "src/assets/task.png",
+      imageSrc: "/task.png",
       imageAlt: "Task Management Interface",
       accentColor: "purple",
       imageOnLeft: false
@@ -90,7 +90,7 @@ const ProjectShowcase = () => {
       title: "Weather Dashboard",
       role: "Frontend Developer",
       description: "A responsive weather application with interactive maps, detailed forecasts, and location-based services. Features real-time weather data, beautiful animations, and cross-platform compatibility.",
-      imageSrc: "src/assets/weather.png",
+      imageSrc: "/weather.png",
       imageAlt: "Weather Dashboard Interface",
       accentColor: "red",
       imageOnLeft: true

@@ -15,7 +15,7 @@ export default function HeroSection() {
               <div className="flex justify-center mb-6">
                 <div className="w-64 h-64 rounded-full bg-gray-200 overflow-hidden">
                   <img 
-                    src="src\assets\profile.jpg" 
+                    src="/profile.jpg" 
                     alt=""
                     className="w-full h-full object-cover"
                   />
@@ -62,7 +62,7 @@ export default function HeroSection() {
             
             {/* Buttons */}
             <div className="flex flex-wrap gap-4 mb-8">
-              <button onClick={() => window.open('src/assets/Shivam Asthana_CV.pdf')} className="bg-blue-600 hover:bg-white hover:text-black border border-blue-600 text-white px-8 py-3 rounded-full font-semibold transition-colors duration-300">
+              <button onClick={() => window.open('/Shivam Asthana_CV.pdf')} className="bg-blue-600 hover:bg-white hover:text-black border border-blue-600 text-white px-8 py-3 rounded-full font-semibold transition-colors duration-300">
                 RESUME
               </button>
               <button onClick={() => navigate('/projects') } className="border border-blue-600 bg-white text-black hover:bg-blue-600 hover:text-white px-8 py-3 rounded-full font-semibold transition-colors duration-300">
