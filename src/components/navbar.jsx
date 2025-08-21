@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="bg-white p-4 fixed top-0 left-0 right-0 z-50 ">
       <div className="container mx-auto flex justify-between items-center max-w-[1400px] h-[80px]">
         {/* Logo */}
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-1">
           <FaSquareFull className="text-blue-500 mt-1" />
           <NavLink to="/" className="flex items-center space-x-2">
             <h1 className="text-black text-2xl md:text-3xl font-bold">
